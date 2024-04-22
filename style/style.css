@@ -1,4 +1,7 @@
 :root {
+  --border-color: #191919;
+  --bg-color: #fdfbf5;
+  --font-color: #000000;
 }
 :root[data-theme="dark"] {
 }
@@ -7,10 +10,11 @@
   meta 클래스는 roboto mono 사용.
 */
 body {
-  background-color: #fdfbf5;
-  border: 1px solid #191919;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
   margin: 20px;
   min-height: 100vh;
+  padding: 48px;
 }
 p,
 span {
@@ -18,7 +22,7 @@ span {
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  color: #000000;
+  color: var(--font-color);
   letter-spacing: 0;
   font-weight: 400;
 }
@@ -104,7 +108,7 @@ footer {
 .line-horizontal {
   height: 100%;
   width: 1px;
-  border: 1px solid #191919;
+  border: 1px solid var(--border-color);
 }
 .footer-office-info {
   flex: 1;
@@ -121,7 +125,7 @@ footer {
   gap: 16px;
 }
 .socials-item {
-  border: 1px solid #191919;
+  border: 1px solid var(--border-color);
   border-radius: 20px;
   padding: 10.5px 8.5px;
 }
@@ -130,4 +134,12 @@ footer {
   display: flex;
   gap: 32px;
   flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  width: 139px;
+  height: 50px;
 }
