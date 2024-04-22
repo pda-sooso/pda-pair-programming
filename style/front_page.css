@@ -93,6 +93,17 @@
 .title-container-content {
   padding: 16px 0;
 }
+
+/* section 5 our values */
+.our-values {
+  padding: 0 0 64px 0;
+  border-bottom: 1px solid var(--default-color);
+}
+.values-title {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+  text-align: center;
+}
 /* section 6 contact */
 .contact {
   padding: 64px 0;
