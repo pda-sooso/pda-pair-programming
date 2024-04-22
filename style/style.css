@@ -105,20 +105,21 @@ span {
 footer {
   display: flex;
 }
-.line-horizontal {
-  height: 100%;
-  width: 1px;
-  border: 1px solid var(--border-color);
-}
+
 .footer-office-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 102px;
+  border-right: 1px solid var(--border-color);
+  padding-right: 48px;
 }
 .footer-menu {
   flex: 1;
   display: flex;
+}
+.footer-menu ul li:not(:first-child) {
+  text-transform: uppercase;
 }
 .socials {
   display: flex;
