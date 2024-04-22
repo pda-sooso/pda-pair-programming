@@ -1,0 +1,21 @@
+/* section 2 : our client */
+.our-client {
+  width: 100%;
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+.client-title {
+  padding-right: 64px;
+  text-wrap: nowrap;
+}
+.clients {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 64px;
+  border-left: 1px solid var(--default-color);
+}
