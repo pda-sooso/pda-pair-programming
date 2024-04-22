@@ -37,6 +37,9 @@ button {
   letter-spacing: 0;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+}
 /* line-height는 지정된것과 다른것들도 존재! 별도 설정 */
 .text-xlarge {
   font-size: 28px;
