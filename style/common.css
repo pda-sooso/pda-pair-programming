@@ -119,7 +119,8 @@ footer {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 102px;
+  /* gap: 102px; */
+  justify-content: space-between;
   padding-right: 48px;
 }
 .top-menu {
