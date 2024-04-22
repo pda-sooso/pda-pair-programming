@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: stretch;
 }
+.do-title,
 .client-title {
   padding-right: 64px;
   text-wrap: nowrap;
@@ -18,6 +19,52 @@
   justify-content: space-between;
   padding-left: 64px;
   border-left: 1px solid var(--default-color);
+}
+
+/* section 3 : what we do */
+.what-we-do {
+  width: 100%;
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+  display: flex;
+  align-items: flex-start;
+}
+.do-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 64px;
+  border-left: 1px solid var(--default-color);
+}
+.do-title {
+  flex: 1;
+}
+.do-top {
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--default-color);
+}
+.do-bottom {
+  padding-top: 48px;
+}
+.do-top,
+.do-bottom {
+  display: flex;
+}
+.do-item {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+.item-info {
+  padding-left: 32px;
+}
+.do-item:first-child {
+  padding-right: 48px;
+}
+.do-item:last-child {
+  border-left: 1px solid var(--default-color);
+  padding-left: 48px;
 }
 /* section-top */
 .main-container {
