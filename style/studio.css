@@ -1,0 +1,14 @@
+.about-us {
+  padding: 64px 0;
+}
+.about-us-title {
+  padding: 16px 0 64px 0;
+  max-width: 1130px;
+}
+.us-img {
+  width: 100%;
+  /* 고정하는게 맞는지..줄어드는게 맞을지.. */
+  min-height: 800px;
+  border-radius: 16px;
+  object-fit: cover;
+}
