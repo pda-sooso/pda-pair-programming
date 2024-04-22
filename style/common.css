@@ -11,9 +11,10 @@
 body {
   background-color: var(--bg-color);
   border: 1px solid var(--default-color);
-  margin: 20px;
+  margin: 20px auto;
   min-height: 100vh;
   padding: 48px;
+  max-width: 1920px;
 }
 .uppercase {
   text-transform: uppercase;
