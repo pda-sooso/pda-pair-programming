@@ -9,11 +9,18 @@
   meta 클래스는 roboto mono 사용.
 */
 body {
+  box-sizing: border-box;
   background-color: var(--bg-color);
   border: 1px solid var(--default-color);
   margin: 20px;
   min-height: 100vh;
   padding: 48px;
+  max-width: 1880px;
+}
+@media (min-width: 1880px) {
+  body {
+    margin: 20px auto;
+  }
 }
 .uppercase {
   text-transform: uppercase;
@@ -141,7 +148,7 @@ footer {
   display: flex;
   gap: 16px;
 }
-.socials-item {
+.round-item {
   border: 1px solid var(--default-color);
   border-radius: 20px;
   padding: 10.5px 8.5px;
@@ -199,8 +206,18 @@ header {
   align-items: flex-start;
   padding: 10px 16px 10px 16px;
   border-radius: 6px;
-  color: rgb(253, 251, 245);
+  color: var(--bg-color);
   background-color: var(--default-color);
+}
+.common-btn-reverse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 16px 10px 16px;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--default-color);
 }
 .navbar-partition {
   width: 1px;

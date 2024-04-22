@@ -96,7 +96,7 @@
 
 /* section 5 our values */
 .our-values {
-  padding: 0 0 64px 0;
+  padding-bottom: 64px;
   border-bottom: 1px solid var(--default-color);
 }
 .values-title {
