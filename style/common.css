@@ -199,8 +199,18 @@ header {
   align-items: flex-start;
   padding: 10px 16px 10px 16px;
   border-radius: 6px;
-  color: rgb(253, 251, 245);
+  color: var(--bg-color);
   background-color: var(--default-color);
+}
+.common-btn-reverse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 16px 10px 16px;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--default-color);
 }
 .navbar-partition {
   width: 1px;
