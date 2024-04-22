@@ -15,6 +15,9 @@ body {
   min-height: 100vh;
   padding: 48px;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 p,
 span,
 li,
@@ -104,27 +107,30 @@ button {
 
 /* footer */
 footer {
+  padding: 64px 0 16px 0;
+}
+.footer-top {
   display: flex;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--default-color);
 }
 
-.footer-office-info {
+.top-office-info {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 102px;
+  /* gap: 102px; */
+  justify-content: space-between;
   padding-right: 48px;
 }
-.footer-menu {
+.top-menu {
   flex: 2;
   display: flex;
   border-left: 1px solid var(--default-color);
   padding-left: 48px;
 }
-.footer-menu ul li:not(:first-child) {
-  text-transform: uppercase;
-  color: var(--default-color);
-}
-.footer-menu ul {
+
+.top-menu ul {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -144,6 +150,15 @@ footer {
   display: flex;
   gap: 32px;
   flex-direction: column;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.bottom-nav {
+  display: flex;
+  gap: 32px;
 }
 /* header */
 header {
