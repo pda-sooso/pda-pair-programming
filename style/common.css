@@ -143,7 +143,7 @@ footer {
   display: flex;
   gap: 16px;
 }
-.socials-item {
+.round-item {
   border: 1px solid var(--default-color);
   border-radius: 20px;
   padding: 10.5px 8.5px;
