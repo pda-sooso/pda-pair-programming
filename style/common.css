@@ -15,6 +15,9 @@ body {
   min-height: 100vh;
   padding: 48px;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 p,
 span,
 li,
@@ -125,10 +128,7 @@ footer {
   border-left: 1px solid var(--default-color);
   padding-left: 48px;
 }
-.top-menu ul li:not(:first-child) {
-  text-transform: uppercase;
-  color: var(--default-color);
-}
+
 .top-menu ul {
   flex: 1;
   display: flex;
