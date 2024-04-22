@@ -1,0 +1,69 @@
+.about-us {
+  padding: 64px 0;
+}
+.about-us-title {
+  padding: 16px 0 64px 0;
+  max-width: 1130px;
+}
+.us-img {
+  width: 100%;
+  /* 고정하는게 맞는지..줄어드는게 맞을지.. */
+  min-height: 800px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.studio-our-values {
+  display: flex;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--default-color);
+}
+.our-values-title {
+  padding-top: 16px;
+}
+.studio-our-values .values-title-box {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* our-team section */
+.our-team {
+  display: flex;
+  align-items: flex-start;
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+}
+.team-title-box {
+  flex: 1;
+  padding-right: 48px;
+}
+.team-introduce {
+  flex: 2;
+  padding-left: 48px;
+  border-left: 1px solid var(--default-color);
+}
+.introduce {
+  display: flex;
+}
+.introduce:first-child {
+  padding-bottom: 48px;
+}
+.introduce-item img {
+  width: 100%;
+}
+.introduce-item:first-child {
+  padding-right: 48px;
+}
+.introduce-item:last-child {
+  padding-left: 48px;
+  border-left: 1px solid var(--default-color);
+}
+.introduce-name {
+  padding-top: 16px;
+}
+.introduce-position {
+  padding-top: 8px;
+}
