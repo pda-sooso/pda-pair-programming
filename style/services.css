@@ -1,0 +1,26 @@
+.top {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+  min-height: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-tags {
+  display: flex;
+  gap: 16px;
+}
+.tag-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--default-color);
+  border: 1px solid var(--default-color);
+}
+.top p {
+  max-width: 1130px;
+}
