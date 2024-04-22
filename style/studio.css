@@ -12,3 +12,19 @@
   border-radius: 16px;
   object-fit: cover;
 }
+
+.studio-our-values {
+  display: flex;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--default-color);
+}
+.our-values-title {
+  padding-top: 16px;
+}
+.studio-our-values .values-title-box {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
