@@ -1,7 +1,6 @@
 :root {
-  --border-color: #191919;
+  --default-color: #191919;
   --bg-color: #fdfbf5;
-  --font-color: #000000;
 }
 :root[data-theme="dark"] {
 }
@@ -11,7 +10,7 @@
 */
 body {
   background-color: var(--bg-color);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--default-color);
   margin: 20px;
   min-height: 100vh;
   padding: 48px;
@@ -24,7 +23,7 @@ button {
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  color: var(--font-color);
+  color: var(--default-color);
   letter-spacing: 0;
   font-weight: 400;
 }
@@ -118,12 +117,12 @@ footer {
 .footer-menu {
   flex: 2;
   display: flex;
-  border-left: 1px solid var(--border-color);
+  border-left: 1px solid var(--default-color);
   padding-left: 48px;
 }
 .footer-menu ul li:not(:first-child) {
   text-transform: uppercase;
-  color: var(--border-color);
+  color: var(--default-color);
 }
 .footer-menu ul {
   flex: 1;
@@ -136,7 +135,7 @@ footer {
   gap: 16px;
 }
 .socials-item {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--default-color);
   border-radius: 20px;
   padding: 10.5px 8.5px;
 }
@@ -183,12 +182,12 @@ header {
   padding: 10px 16px 10px 16px;
   border-radius: 6px;
   color: rgb(253, 251, 245);
-  background-color: var(--border-color);
+  background-color: var(--default-color);
 }
 .navbar-partition {
   width: 1px;
   height: 40px;
-  background-color: var(--border-color);
+  background-color: var(--default-color);
   margin: 1px 20px;
 }
 .socials {
@@ -196,7 +195,7 @@ header {
   gap: 16px;
 }
 .socials-item {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--default-color);
   border-radius: 20px;
   padding: 10.5px 8.5px;
 }
