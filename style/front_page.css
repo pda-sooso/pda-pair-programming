@@ -66,33 +66,6 @@
   border-left: 1px solid var(--default-color);
   padding-left: 48px;
 }
-/* section 4 how we work */
-.how-we-work {
-  padding: 64px 0;
-  border-bottom: 1px solid var(--default-color);
-  display: flex;
-}
-.work-title {
-  flex: 2;
-  padding-right: 48px;
-  min-height: 499px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.work-content {
-  flex: 1;
-  border-left: 1px solid var(--default-color);
-  padding-left: 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.title-container-content {
-  padding: 16px 0;
-}
 /* section-top */
 .main-container {
   display: flex;
