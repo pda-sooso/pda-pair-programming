@@ -1,0 +1,32 @@
+/* section-top */
+.main-container {
+  display: flex;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 64px 0px;
+  gap: 64px;
+}
+.top-text {
+  padding: 16px 0px;
+}
+.top-icon-img {
+  width: 61px;
+  height: 80px;
+  padding: 160px 0px 0px;
+}
+.top-img-container {
+  display: flex;
+  height: 860px;
+}
+.top-img {
+  background-image: url(../imgs/img_top.svg);
+  background-repeat: no-repeat;
+  background-position: 100% -17px;
+  background-position: center;
+  background-size: 130%;
+  height: 700px;
+  width: 860px;
+}
