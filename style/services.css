@@ -1,0 +1,97 @@
+.top {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--default-color);
+  min-height: 414px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-tags {
+  display: flex;
+  gap: 16px;
+}
+.tag-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--default-color);
+  border: 1px solid var(--default-color);
+}
+.top p {
+  max-width: 1130px;
+}
+.service {
+  border-bottom: 0.5px solid var(--default-color);
+}
+/* 브랜딩 센션 */
+.content-container {
+  display: flex;
+  padding: 64px 0px;
+}
+.logo {
+  width: 100px;
+  height: 98px;
+}
+
+.side-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.main-content-container {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  padding-left: 64px;
+  border-left: 1px solid var(--default-color);
+}
+.side-head {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 110%;
+  padding-top: 32px;
+}
+.side-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 48px 0px;
+}
+.side-summary {
+  font-family: Roboto Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.main-txt {
+  display: flex;
+  flex-direction: column;
+}
+.txt-head {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.txt-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  padding: 32px 0px 48px 0px;
+}
+.txt-detail {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 170%;
+}
+.content-img {
+  border-radius: 15px;
+}
+.branding-img {
+  width: 100%;
+}

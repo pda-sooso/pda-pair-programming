@@ -37,6 +37,9 @@ button {
   letter-spacing: 0;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+}
 /* line-height는 지정된것과 다른것들도 존재! 별도 설정 */
 .text-xlarge {
   font-size: 28px;
@@ -214,10 +217,11 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 10px 16px 10px 16px;
+  padding: 10 px 16px 10px 16px;
   border-radius: 6px;
   background-color: var(--bg-color);
   color: var(--default-color);
+  border: 1px solid var(--default-color);
 }
 .navbar-partition {
   width: 1px;
