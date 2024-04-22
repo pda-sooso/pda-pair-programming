@@ -12,10 +12,15 @@ body {
   box-sizing: border-box;
   background-color: var(--bg-color);
   border: 1px solid var(--default-color);
-  margin: 20px auto;
+  margin: 20px;
   min-height: 100vh;
   padding: 48px;
   max-width: 1880px;
+}
+@media (min-width: 1880px) {
+  body {
+    margin: 20px auto;
+  }
 }
 .uppercase {
   text-transform: uppercase;
