@@ -27,9 +27,15 @@
 .top {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-between;
   padding: 64px 0px;
   gap: 64px;
+  border-bottom: 1px solid var(--default-color);
+}
+.top-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .top-text {
   padding: 16px 0px;
