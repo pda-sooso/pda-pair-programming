@@ -29,16 +29,14 @@
 }
 /* 브랜딩 센션 */
 .content-container {
+  display: flex;
   padding: 64px 0px;
 }
 .logo {
   width: 100px;
   height: 98px;
 }
-.content-container {
-  display: flex;
-  padding: 28px;
-}
+
 .side-container {
   display: flex;
   flex-direction: column;
@@ -92,5 +90,8 @@
   line-height: 170%;
 }
 .content-img {
-  border-radius: 5px;
+  border-radius: 15px;
+}
+.branding-img {
+  width: 100%;
 }
