@@ -135,6 +135,7 @@ footer {
   gap: 32px;
   flex-direction: column;
 }
+/* header */
 header {
   display: flex;
   flex-direction: row;
@@ -143,9 +144,6 @@ header {
 .logo-img {
   width: 139px;
   height: 50px;
-}
-header {
-  display: flex;
 }
 .header-navbar {
   display: flex;
@@ -158,6 +156,13 @@ header {
   align-items: center;
   gap: 32px;
   padding-right: 32px;
+}
+.navbar-contents-combine {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
 }
 .navbar-btn-talk {
   display: flex;
