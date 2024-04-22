@@ -47,14 +47,14 @@
 }
 .top-img-container {
   display: flex;
-  height: 860px;
+  flex: 1;
 }
 .top-img {
+  border-radius: 15px;
   background-image: url(../imgs/img_top.svg);
   background-repeat: no-repeat;
-  background-position: 100% -17px;
   background-position: center;
-  background-size: 130%;
-  height: 700px;
-  width: 860px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
