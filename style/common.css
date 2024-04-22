@@ -189,7 +189,7 @@ header {
   align-items: center;
   gap: 4px;
 }
-.navbar-btn-talk {
+.common-btn {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
