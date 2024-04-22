@@ -2,3 +2,91 @@
 }
 :root[data-theme="dark"] {
 }
+
+/* 기본 폰트 pretendard
+  meta 클래스는 roboto mono 사용.
+*/
+p,
+span {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #000000;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+/* line-height는 지정된것과 다른것들도 존재! 별도 설정 */
+.text-xlarge {
+  font-size: 28px;
+  line-height: 150%;
+}
+.text-large {
+  font-size: 24px;
+  line-height: 160%;
+}
+.text-medium {
+  font-size: 20px;
+  line-height: 170%;
+}
+.text-default {
+  font-size: 18px;
+  line-height: 170%;
+}
+.head-large {
+  font-size: 128px;
+  font-weight: 500;
+  line-height: 100%;
+}
+.head-medium {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.head-small {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.head-h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.head-h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.head-h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.head-h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+}
+/* font : roboto mono */
+.meta {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+.meta-small {
+  font-family: "Roboto Mono", monospace;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
+.meta-tag {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1px;
+}
