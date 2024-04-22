@@ -166,6 +166,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid var(--default-color);
+  padding-bottom: 32px;
 }
 .logo-img {
   width: 139px;
