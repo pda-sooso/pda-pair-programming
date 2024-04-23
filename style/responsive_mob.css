@@ -1,8 +1,43 @@
 body {
   padding: 12px;
 }
+header {
+  padding-bottom: 8px;
+}
 .header-navbar {
   display: none;
 }
-.top-main-title {
+/* top section */
+.top {
+  padding: 19px 0px;
+  gap: 4px;
+}
+.top-img-container {
+  width: 100%;
+}
+.top-img-container img {
+  width: 100%;
+  transform: translateX(0);
+  object-fit: cover;
+  border-radius: 16px;
+}
+.do-top,
+.do-bottom {
+  flex-direction: column;
+  border-bottom: none;
+  padding: 0;
+}
+.do-item {
+  padding-bottom: 48px;
+}
+.do-item:first-child {
+  padding-right: 0;
+}
+.do-item:last-child {
+  padding-left: 0;
+  padding-right: 0;
+  border-left: none;
+}
+.what-we-do {
+  padding-bottom: 0;
 }
