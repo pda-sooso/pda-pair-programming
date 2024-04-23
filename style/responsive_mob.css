@@ -4,5 +4,41 @@ body {
 .header-navbar {
   display: none;
 }
-.top-main-title {
+footer {
+  padding: 48px 0;
+}
+footer > div.footer-top {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--default-color);
+}
+footer .top-menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  border-left: none;
+  padding-left: 0;
+}
+.socials {
+  padding-bottom: 48px;
+}
+.top-menu ul {
+  gap: 16px;
+}
+.top-menu li:first-child {
+  padding-bottom: 16px;
+}
+.top-menu ul:not(:last-child) {
+  padding-bottom: 48px;
+}
+
+.menu-pages li:last-child {
+  margin-top: 16px;
+}
+.footer-bottom {
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
 }
