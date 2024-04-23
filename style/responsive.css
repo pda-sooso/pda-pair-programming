@@ -1,3 +1,11 @@
+/* header  */
+header {
+  flex-wrap: wrap;
+}
+
+/* footer */
+
+/* section top */
 .top {
   display: flex;
   flex-direction: column;
