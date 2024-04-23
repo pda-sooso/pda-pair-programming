@@ -278,6 +278,7 @@
 /* section news */
 .news-contents {
   display: flex;
+  padding: 64px 0;
 }
 .news-title {
   display: flex;
@@ -294,6 +295,15 @@
   border-left: 1px solid var(--default-color);
   padding-left: 48px;
 }
+.news-item {
+  flex: 1;
+}
+.news-tag {
+  padding: 16px 0 8px 0;
+}
 .news-item img {
   width: 100%;
+}
+.news {
+  border-bottom: 1px solid var(--default-color);
 }
