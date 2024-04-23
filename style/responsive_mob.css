@@ -127,3 +127,35 @@ footer .top-menu {
 .services-top > p {
   padding-bottom: 16px;
 }
+
+.content-container {
+  padding: 36px 0 48px 0;
+}
+.side-container {
+  padding-bottom: 24px;
+}
+.side-summary-container {
+  gap: 24px;
+}
+.txt-head {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 120%;
+  border-bottom: 1px solid var(--default-color);
+}
+.txt-details {
+  grid-template-columns: 1fr;
+  padding: 36px 0;
+  gap: 36px;
+}
+.txt-detail {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.content-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
