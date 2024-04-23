@@ -127,5 +127,46 @@ header {
   padding: 16px 0px 48px 0px;
 }
 .contact .contact-btn {
-  padding: px 0px;
+  padding: 0px 0px;
+}
+
+.how-we-work {
+  padding: 33px 0;
+  border-bottom: 1px solid var(--default-color);
+  display: flex;
+  flex-direction: column;
+}
+.how-we-work .title-container-head {
+  padding: 32px 0px 0px 0px;
+}
+.work-title {
+  flex: 2;
+  padding-right: 48px;
+  min-height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.how-we-work .title-container-content {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 110%;
+  padding: 16px 0px 0px 0px;
+}
+.work-content {
+  border-left: none;
+  padding: 16px 0px 32px 0px;
+}
+.how-we-work img {
+  display: none;
+}
+.how-we-work .text-large {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 16px 0px 48px 0px;
+}
+.how-we-work .contact-btn {
+  padding: 0px 0px;
 }
