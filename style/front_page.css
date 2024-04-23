@@ -238,7 +238,7 @@
 }
 .big-img-container {
   border-bottom: 1px solid var(--default-color);
-  /* padding-bottom: 32px; */
+  padding-bottom: 32px;
 }
 .work-img-container {
   display: flex;

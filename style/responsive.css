@@ -171,6 +171,17 @@ header {
   padding: 0px 0px;
 }
 
+/* section featured */
+.featured-work {
+  flex-direction: column;
+}
+.work-btn-container {
+  padding-bottom: 29px;
+}
+.work-img-container {
+  border-left: none;
+  padding-left: 0;
+}
 /* section news */
 .news-title {
   flex-direction: column;
