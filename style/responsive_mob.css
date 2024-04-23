@@ -41,3 +41,26 @@ header {
 .what-we-do {
   padding-bottom: 0;
 }
+/* featured section */
+.work-container {
+  padding-right: 0;
+}
+.work-btn-container {
+  padding-top: 24px;
+}
+.work-img-container {
+  padding-bottom: 0;
+}
+.big-img-container {
+  border-bottom: none;
+}
+.small-img-container {
+  grid-template-columns: 1fr;
+}
+.small-img-container .img-container:nth-child(odd) {
+  padding-right: 0px;
+}
+.small-img-container .img-container:nth-child(even) {
+  padding-left: 0px;
+  border-left: none;
+}
