@@ -181,6 +181,9 @@
   flex-direction: column;
   flex: 1;
 }
+.top-main-title {
+  max-width: 860px;
+}
 .top-text {
   padding: 16px 0px;
 }

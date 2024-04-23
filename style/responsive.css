@@ -170,3 +170,23 @@ header {
 .how-we-work .contact-btn {
   padding: 0px 0px;
 }
+
+/* section news */
+.news-title {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.news-title > p:first-child {
+  width: 100%;
+}
+.news-contents {
+  flex-direction: column;
+}
+
+.news-item:not(:last-child) {
+  padding: 0 0 48px 0px;
+}
+.news-item:not(:first-child) {
+  border-left: none;
+  padding: 0 0 48px 0px;
+}
