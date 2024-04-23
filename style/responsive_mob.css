@@ -118,3 +118,12 @@ footer .top-menu {
   align-items: center;
   justify-content: center;
 }
+
+/* service page */
+/* top */
+.services-top {
+  padding: 36px 0;
+}
+.services-top > p {
+  padding-bottom: 16px;
+}

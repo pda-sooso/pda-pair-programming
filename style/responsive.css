@@ -217,3 +217,11 @@ header {
 .txt-head {
   padding: 36px 0px;
 }
+/* service page */
+/* top */
+.services-top {
+  min-height: initial;
+}
+.services-top > p {
+  padding-bottom: 128px;
+}
