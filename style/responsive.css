@@ -1,3 +1,11 @@
+/* header  */
+header {
+  flex-wrap: wrap;
+}
+
+/* footer */
+
+/* section top */
 .top {
   display: flex;
   flex-direction: column;
@@ -16,14 +24,69 @@
   display: flex;
   flex: 1;
 }
-.top-img {
-  border-radius: 15px;
-  background-image: url(../imgs/img_top.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
+/* section our client */
+.our-client,
+.what-we-do {
+  flex-direction: column;
+  padding: 38px 0;
+}
+.client-title {
+  text-align: center;
   width: 100%;
+  padding: 0px 0px 38px 0px;
+  border-bottom: 1px solid var(--default-color);
+}
+
+.clients {
+  padding: 38px 0 0 0;
+  border-left: none;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.clients img {
+  padding: 2px;
+}
+/* section what we do */
+.do-title {
+  width: 100%;
+  padding: 0px 0px 38px 0px;
+  text-align: center;
+  border-bottom: 1px solid var(--default-color);
+}
+.do-list {
+  padding: 38px 0 0;
+  border-left: none;
+}
+
+/* section our values */
+.our-values {
+  padding-bottom: 9px;
+}
+.values-title {
+  padding: 38px;
+}
+.values-main {
+  padding: 24px 0;
+  flex-direction: column;
+}
+.values-img-box {
+  padding: 0 0 24px 0;
+}
+
+.values-contents {
+  padding: 0;
+  border-left: none;
+}
+.contents-item:not(:last-child) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--default-color);
+}
+.contents-item:not(:first-child) {
+  padding-top: 32px;
+}
+.content-item-desc > p:first-child {
+  padding-bottom: 8px;
 }
 .contact {
   padding: 33px 0;
@@ -64,5 +127,46 @@
   padding: 16px 0px 48px 0px;
 }
 .contact .contact-btn {
-  padding: px 0px;
+  padding: 0px 0px;
+}
+
+.how-we-work {
+  padding: 33px 0;
+  border-bottom: 1px solid var(--default-color);
+  display: flex;
+  flex-direction: column;
+}
+.how-we-work .title-container-head {
+  padding: 32px 0px 0px 0px;
+}
+.work-title {
+  flex: 2;
+  padding-right: 48px;
+  min-height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.how-we-work .title-container-content {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 110%;
+  padding: 16px 0px 0px 0px;
+}
+.work-content {
+  border-left: none;
+  padding: 16px 0px 32px 0px;
+}
+.how-we-work img {
+  display: none;
+}
+.how-we-work .text-large {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 16px 0px 48px 0px;
+}
+.how-we-work .contact-btn {
+  padding: 0px 0px;
 }

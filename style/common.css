@@ -28,7 +28,8 @@ body {
 p,
 span,
 li,
-button {
+button,
+div {
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
@@ -183,6 +184,9 @@ header {
   width: 139px;
   height: 50px;
 }
+.header-logo {
+  padding-right: 32px;
+}
 .header-navbar {
   flex: 1;
   display: flex;
@@ -195,7 +199,7 @@ header {
   justify-content: space-between;
   align-items: center;
   max-width: 529px;
-  padding: 0 32px;
+  padding-right: 32px;
 }
 .navbar-contents-combine {
   display: flex;
@@ -206,6 +210,7 @@ header {
 }
 .common-btn {
   display: flex;
+  text-align: center;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
