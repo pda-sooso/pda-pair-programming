@@ -3,6 +3,8 @@
   --bg-color: #fdfbf5;
 }
 :root[data-theme="dark"] {
+  --default-color: #fdfbf5;
+  --bg-color: #191919;
 }
 
 /* 기본 폰트 pretendard
