@@ -76,6 +76,10 @@ header {
   padding-right: 0;
 }
 /* our values */
+.values-title {
+  padding: 48px;
+}
+/* footer */
 footer {
   padding: 48px 0;
 }
