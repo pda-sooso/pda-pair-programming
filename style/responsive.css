@@ -201,3 +201,9 @@ header {
   border-left: none;
   padding: 0 0 48px 0px;
 }
+
+/* service page */
+/* top */
+.top {
+  min-height: initial;
+}
