@@ -219,7 +219,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 10 px 16px 10px 16px;
+  padding: 10px 16px 10px 16px;
   border-radius: 6px;
   background-color: var(--bg-color);
   color: var(--default-color);
