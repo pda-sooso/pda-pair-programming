@@ -225,3 +225,14 @@ header {
 .services-top > p {
   padding-bottom: 128px;
 }
+
+/* studio page */
+.studio-our-values {
+  flex-direction: column;
+}
+.our-values-title {
+  padding-bottom: 48px;
+}
+.values-title-box {
+  padding-bottom: 48px;
+}

@@ -84,6 +84,9 @@ a {
   font-size: 96px;
   font-weight: 500;
   line-height: 110%;
+  @media (max-width: 1023px) {
+    font-size: 80px;
+  }
   @media (max-width: 767px) {
     font-size: 28px;
   }
