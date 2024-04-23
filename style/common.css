@@ -3,6 +3,8 @@
   --bg-color: #fdfbf5;
 }
 :root[data-theme="dark"] {
+  --default-color: #fdfbf5;
+  --bg-color: #191919;
 }
 
 /* 기본 폰트 pretendard
@@ -45,10 +47,16 @@ a {
 .text-xlarge {
   font-size: 28px;
   line-height: 150%;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 }
 .text-large {
   font-size: 24px;
   line-height: 160%;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 }
 .text-medium {
   font-size: 20px;
@@ -57,6 +65,9 @@ a {
 .text-default {
   font-size: 18px;
   line-height: 170%;
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
 }
 .head-large {
   font-size: 128px;
@@ -67,11 +78,17 @@ a {
   font-size: 96px;
   font-weight: 500;
   line-height: 110%;
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
 }
 .head-small {
   font-size: 80px;
   font-weight: 500;
   line-height: 110%;
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
 }
 .head-h1 {
   font-size: 64px;
@@ -82,11 +99,17 @@ a {
   font-size: 48px;
   font-weight: 500;
   line-height: 110%;
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
 }
 .head-h3 {
   font-size: 32px;
   font-weight: 500;
   line-height: 120%;
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
 }
 .head-h4 {
   font-size: 24px;
