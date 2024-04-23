@@ -64,3 +64,10 @@ header {
   padding-left: 0px;
   border-left: none;
 }
+/*  how we work */
+.how-we-work {
+  padding: 0 0 33px 0;
+}
+.work-title {
+  padding-right: 0;
+}
