@@ -1,4 +1,4 @@
-.top {
+.services-top {
   padding: 64px 0;
   border-bottom: 1px solid var(--default-color);
   min-height: 414px;
@@ -21,7 +21,7 @@
   color: var(--default-color);
   border: 1px solid var(--default-color);
 }
-.top p {
+.services-top p {
   max-width: 1130px;
 }
 .service {

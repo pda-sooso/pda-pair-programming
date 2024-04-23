@@ -73,6 +73,12 @@ a {
   font-size: 128px;
   font-weight: 500;
   line-height: 100%;
+  @media (max-width: 1023px) {
+    font-size: 96px;
+  }
+  @media (max-width: 767px) {
+    font-size: 32px;
+  }
 }
 .head-medium {
   font-size: 96px;
@@ -94,6 +100,9 @@ a {
   font-size: 64px;
   font-weight: 500;
   line-height: 110%;
+  @media (max-width: 767px) {
+    font-size: 30px;
+  }
 }
 .head-h2 {
   font-size: 48px;

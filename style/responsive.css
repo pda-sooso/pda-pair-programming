@@ -201,3 +201,27 @@ header {
   border-left: none;
   padding: 0 0 48px 0px;
 }
+
+.content-container {
+  flex-direction: column;
+  padding: 64px 0px;
+}
+.side-container {
+  padding-bottom: 48px;
+  border-bottom: 1px solid var(--default-color);
+}
+.main-content-container {
+  padding-left: 0;
+  border-left: none;
+}
+.txt-head {
+  padding: 36px 0px;
+}
+/* service page */
+/* top */
+.services-top {
+  min-height: initial;
+}
+.services-top > p {
+  padding-bottom: 128px;
+}
