@@ -192,15 +192,12 @@
 .top-img-container {
   display: flex;
   flex: 1;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .top-img {
-  border-radius: 15px;
-  background-image: url(../imgs/img_top.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   height: 100%;
-  width: 100%;
+  transform: translateX(-30%);
 }
 /* FEATURED WORK */
 .featured-work {
