@@ -12,6 +12,9 @@ header {
   padding: 19px 0px;
   gap: 4px;
 }
+.top-tags {
+  flex-wrap: wrap;
+}
 .top-img-container {
   width: 100%;
 }
