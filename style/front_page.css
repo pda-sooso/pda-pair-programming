@@ -171,7 +171,7 @@
 .top {
   display: flex;
   flex-direction: row;
-  justify-content: flex-between;
+  justify-content: space-between;
   padding: 64px 0px;
   gap: 64px;
   border-bottom: 1px solid var(--default-color);
