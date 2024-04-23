@@ -7,5 +7,67 @@ header {
 .header-navbar {
   display: none;
 }
-.top-main-title {
+/* top section */
+.top {
+  padding: 19px 0px;
+  gap: 4px;
+}
+.top-img-container {
+  width: 100%;
+}
+.top-img-container img {
+  width: 100%;
+  transform: translateX(0);
+  object-fit: cover;
+  border-radius: 16px;
+}
+.do-top,
+.do-bottom {
+  flex-direction: column;
+  border-bottom: none;
+  padding: 0;
+}
+.do-item {
+  padding-bottom: 48px;
+}
+.do-item:first-child {
+  padding-right: 0;
+}
+.do-item:last-child {
+  padding-left: 0;
+  padding-right: 0;
+  border-left: none;
+}
+.what-we-do {
+  padding-bottom: 0;
+}
+/* featured section */
+.work-container {
+  padding-right: 0;
+}
+.work-btn-container {
+  padding-top: 24px;
+}
+.work-img-container {
+  padding-bottom: 0;
+}
+.big-img-container {
+  border-bottom: none;
+}
+.small-img-container {
+  grid-template-columns: 1fr;
+}
+.small-img-container .img-container:nth-child(odd) {
+  padding-right: 0px;
+}
+.small-img-container .img-container:nth-child(even) {
+  padding-left: 0px;
+  border-left: none;
+}
+/*  how we work */
+.how-we-work {
+  padding: 0 0 33px 0;
+}
+.work-title {
+  padding-right: 0;
 }
