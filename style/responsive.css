@@ -225,3 +225,68 @@ header {
 .services-top > p {
   padding-bottom: 128px;
 }
+
+/* studio page */
+.studio-our-values {
+  flex-direction: column;
+}
+.our-values-title {
+  padding-bottom: 48px;
+}
+.values-title-box {
+  padding-bottom: 48px;
+}
+.about-us {
+  padding: 32px 0;
+}
+.about-us-title {
+  padding: 16px 0;
+}
+.us-img {
+  width: 100%;
+  object-fit: cover;
+  min-height: auto;
+}
+.values-contents .contents-item img {
+  width: 60px;
+}
+
+.our-team {
+  flex-direction: column;
+  padding: 32px 0;
+}
+.team-title-box {
+  padding-right: 0;
+  padding-bottom: 20px;
+}
+.team-title-box > p:first-child {
+  padding-bottom: 8px;
+}
+
+.team-introduce {
+  padding-left: 0px;
+  border-left: none;
+}
+.introduce {
+  flex-direction: column;
+  padding-bottom: 0;
+}
+.introduce:first-child {
+  padding-bottom: 0px;
+}
+.introduce-item {
+  padding-bottom: 20px;
+}
+.introduce-item:first-child {
+  padding-right: 0px;
+}
+.introduce-item:last-child {
+  padding-left: 0px;
+  border-left: none;
+}
+.introduce-name {
+  padding-top: 16px;
+}
+.introduce-position {
+  padding-top: 8px;
+}
