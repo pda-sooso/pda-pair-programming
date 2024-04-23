@@ -204,6 +204,9 @@ header {
 
 /* service page */
 /* top */
-.top {
+.services-top {
   min-height: initial;
+}
+.services-top > p {
+  padding-bottom: 128px;
 }
