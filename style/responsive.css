@@ -58,3 +58,33 @@ header {
   padding: 38px 0 0;
   border-left: none;
 }
+
+/* section our values */
+.our-values {
+  padding-bottom: 9px;
+}
+.values-title {
+  padding: 38px;
+}
+.values-main {
+  padding: 24px 0;
+  flex-direction: column;
+}
+.values-img-box {
+  padding: 0 0 24px 0;
+}
+
+.values-contents {
+  padding: 0;
+  border-left: none;
+}
+.contents-item:not(:last-child) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--default-color);
+}
+.contents-item:not(:first-child) {
+  padding-top: 32px;
+}
+.content-item-desc > p:first-child {
+  padding-bottom: 8px;
+}
