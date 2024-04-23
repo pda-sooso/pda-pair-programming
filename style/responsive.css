@@ -1,0 +1,68 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 24px 0;
+  border-bottom: 1px solid var(--default-color);
+}
+.top-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.top-icon-img {
+  display: none;
+}
+.top-img-container {
+  display: flex;
+  flex: 1;
+}
+.top-img {
+  border-radius: 15px;
+  background-image: url(../imgs/img_top.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.contact {
+  padding: 33px 0;
+  border-bottom: 1px solid var(--default-color);
+  display: flex;
+  flex-direction: column;
+}
+.contact-title-head {
+  padding: 32px 0px 16px 0px;
+}
+
+.contact-title {
+  flex: 2;
+  padding-right: 48px;
+  min-height: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact .title-container-content {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 110%;
+  padding: 16px 0px 0px 0px;
+}
+.contact-content {
+  border-left: none;
+  padding: 16px 0px 32px 0px;
+}
+.contact img {
+  display: none;
+}
+.contact .text-large {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 16px 0px 48px 0px;
+}
+.contact .contact-btn {
+  padding: px 0px;
+}
