@@ -274,3 +274,26 @@
   width: 100%;
   height: 100%;
 }
+
+/* section news */
+.news-contents {
+  display: flex;
+}
+.news-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0;
+  border-bottom: 1px solid var(--default-color);
+}
+
+.news-item:not(:last-child) {
+  padding-right: 48px;
+}
+.news-item:not(:first-child) {
+  border-left: 1px solid var(--default-color);
+  padding-left: 48px;
+}
+.news-item img {
+  width: 100%;
+}
