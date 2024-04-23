@@ -25,7 +25,8 @@ header {
   flex: 1;
 }
 /* section our client */
-.our-client {
+.our-client,
+.what-we-do {
   flex-direction: column;
   padding: 38px 0;
 }
@@ -35,6 +36,7 @@ header {
   padding: 0px 0px 38px 0px;
   border-bottom: 1px solid var(--default-color);
 }
+
 .clients {
   padding: 38px 0 0 0;
   border-left: none;
@@ -46,3 +48,13 @@ header {
   padding: 2px;
 }
 /* section what we do */
+.do-title {
+  width: 100%;
+  padding: 0px 0px 38px 0px;
+  text-align: center;
+  border-bottom: 1px solid var(--default-color);
+}
+.do-list {
+  padding: 38px 0 0;
+  border-left: none;
+}
